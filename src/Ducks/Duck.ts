@@ -5,15 +5,20 @@ abstract class Duck {
     flyBehavior: FlyBehavior;
     quackBehavior: QuackBehavior;
 
-    constructor(fb: FlyBehavior, qb: QuackBehavior) {
-        this.flyBehavior = fb;
-        this.quackBehavior = qb;
-    }
+    constructor() {}
 
     abstract display(): void;
 
+    setFlyBehavior(fb: FlyBehavior): void {
+        this.flyBehavior = fb;
+    }
+
     performFly(): void {
         this.flyBehavior.fly();
+    }
+
+    setQuackBehavior(qb: QuackBehavior): void {
+        this.quackBehavior = qb;
     }
 
     performQuack(): void {

@@ -21,130 +21,162 @@ function main() {
 
     // ============================================================== DecoidDuck
     console.log('================================================= DecoidDuck');
+    duck = new DecoidDuck();
+
     flyBehavior = new FlyWithWings();
     quackBehavior = new MuteQuack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Quack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Squack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new MuteQuack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Quack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Squack();
-    duck = new DecoidDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     // ============================================================= MallardDuck
     console.log('================================================ MallardDuck');
+    duck = new MallardDuck();
+
     flyBehavior = new FlyWithWings();
     quackBehavior = new MuteQuack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Quack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Squack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new MuteQuack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Quack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Squack();
-    duck = new MallardDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     // ============================================================= RedheadDuck
     console.log('================================================ RedheadDuck');
+    duck = new RedheadDuck();
+
     flyBehavior = new FlyWithWings();
     quackBehavior = new MuteQuack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Quack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Squack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new MuteQuack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Quack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Squack();
-    duck = new RedheadDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     // ============================================================== RubberDuck
     console.log('================================================= RubberDuck');
+    duck = new RubberDuck();
+
     flyBehavior = new FlyWithWings();
     quackBehavior = new MuteQuack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Quack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new Squack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new MuteQuack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Quack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
     quackBehavior = new Squack();
-    duck = new RubberDuck(flyBehavior, quackBehavior);
+    duck.setFlyBehavior(flyBehavior);
+    duck.setQuackBehavior(quackBehavior);
     callActions(duck);
 }
 
