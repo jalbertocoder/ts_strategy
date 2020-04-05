@@ -1,5 +1,5 @@
 import { Duck } from './Ducks/Duck';
-import { DecoidDuck } from './Ducks/DecoidDuck';
+import { DevoidDuck } from './Ducks/DevoidDuck';
 import { MallardDuck } from './Ducks/MallardDuck';
 import { RedheadDuck } from './Ducks/RedheadDuck';
 import { RubberDuck } from './Ducks/RubberDuck';
@@ -11,7 +11,7 @@ import { FlyNoWay } from './Behaviors/Fly/FLyNoWay';
 import { QuackBehavior } from './Behaviors/Quack/QuackBehavior';
 import { MuteQuack } from './Behaviors/Quack/MuteQuack';
 import { Quack } from './Behaviors/Quack/Quack';
-import { Squack } from './Behaviors/Quack/Squack';
+import { Squawk } from './Behaviors/Quack/Squawk';
 
 
 function main() {
@@ -19,9 +19,9 @@ function main() {
     let flyBehavior: FlyBehavior;
     let quackBehavior: QuackBehavior;
 
-    // ============================================================== DecoidDuck
-    console.log('================================================= DecoidDuck');
-    duck = new DecoidDuck();
+    // ============================================================== DevoidDuck
+    console.log('================================================= DevoidDuck');
+    duck = new DevoidDuck();
 
     flyBehavior = new FlyWithWings();
     quackBehavior = new MuteQuack();
@@ -36,7 +36,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -54,7 +54,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -76,7 +76,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -94,7 +94,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -116,7 +116,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -134,7 +134,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -156,7 +156,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyWithWings();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
@@ -174,7 +174,7 @@ function main() {
     callActions(duck);
 
     flyBehavior = new FlyNoWay();
-    quackBehavior = new Squack();
+    quackBehavior = new Squawk();
     duck.setFlyBehavior(flyBehavior);
     duck.setQuackBehavior(quackBehavior);
     callActions(duck);
